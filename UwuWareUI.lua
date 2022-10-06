@@ -1,3 +1,4 @@
+--[[
 pcall(function()
     game:GetService('CoreGui')['Symmetrical v4']:Destroy()
 end)
@@ -1661,3 +1662,4 @@ inputService.InputChanged:connect(function(input)
 end)
 
 return library
+]]
