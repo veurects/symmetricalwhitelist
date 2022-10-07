@@ -1,3 +1,1 @@
-return {
-game:GetService("Players").LocalPlayer:Kick("Nice Try Skid 🤡.")
-}
+game:GetService("Players").LocalPlayer:Kick("Nice Try Skid 🤡")
