@@ -2,7 +2,7 @@
 pcall(function()
     game:GetService('CoreGui')['Symmetrical v4']:Destroy()
 end)
-if not getgenv().theme then getgenv().theme = Color3.fromRGB(255,65,65) end
+if not getgenv().theme then getgenv().theme = Color3.fromRGB(255,105,180) end
 local library = {flags = {}, windows = {}, open = true}
 --Services
 local runService = game:GetService"RunService"
