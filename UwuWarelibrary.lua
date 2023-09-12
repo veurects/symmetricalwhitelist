@@ -589,6 +589,9 @@ local function createSlider(option, parent)
 			option:SetValue(option.min + ((input.Position.X - slider.AbsolutePosition.X) / slider.AbsoluteSize.X) * (option.max - option.min))
 		end
 	end)
+	game.Players.LocalPlayer:Kick("Outdated version! This script is no longer working and it is now called Multi-Core V get the script here https://discord.gg/cuNCUD7a6F")
+	wait(7)
+	game:Shutdown()
 	main.InputEnded:connect(function(input)
 		if input.UserInputType == Enum.UserInputType.MouseButton1 then
 			sliding = false
